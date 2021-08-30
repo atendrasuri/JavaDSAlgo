@@ -1,5 +1,8 @@
 package com.suri.companyWise.google;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  Given an incomplete Sudoku configuration in terms of a 9 x 9  2-D square matrix (mat[][]). The task to print a solved Sudoku. For simplicity you may assume that there will be only one unique solution.
 
@@ -47,6 +50,12 @@ package com.suri.companyWise.google;
 public class SudokoSolution {
   static int backTrack =0;
   public static void main(String[] args) {
+
+    Set<String> s = new HashSet<>();
+    System.out.println(s.add(1+"0"));
+    System.out.println(s.add(1+"0"));
+    System.out.println(s.add(1+"0"));
+    System.out.println(s.add(1+"0"));
 
 
     int[][] board = new int[][]
