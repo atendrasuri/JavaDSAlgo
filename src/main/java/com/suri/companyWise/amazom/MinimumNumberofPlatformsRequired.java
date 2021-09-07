@@ -41,9 +41,6 @@ public class MinimumNumberofPlatformsRequired {
         int n= arr.length;
 
         while(i<n && j<n){
-
-            int a= arr[i];
-            int d= dep[j];
             if(arr[i]<=dep[j]){
                 platFormRequired++;
                 i++;

@@ -117,7 +117,7 @@ You are allowed to move in all four direction. Movement will be totally random. 
 19. Given four types of array type 1:- strictly increasing, type 2:- strictly decreasing, type 3:- increasing and then decreasing
     type 4:- decreasing and then decreasing, your method take array as input and return the types of this array belongs.
 
-20. Rearrange characters in a string such that no two adjacent are same.
+20. Rearrange characters in a string such that no two adjacent are same -done
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/

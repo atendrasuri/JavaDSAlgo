@@ -35,7 +35,7 @@ package com.suri.companyWise.amazom;
 public class UniquePaths {
   public static void main(String[] args) {
 
-    System.out.println(uniquePaths(3, 2));
+    System.out.println(uniquePaths(7, 3));
 
   }
 
