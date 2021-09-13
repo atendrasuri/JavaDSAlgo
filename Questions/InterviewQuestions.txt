@@ -203,7 +203,10 @@ Asked in LensKart:-
   25, 75, 9-> 75
 4. Given height of N person in an array and only person who can handover the movie ticket, who is next taller.
 5. Check whether given Binary tree is BST(Binary search tree) or not?
-6. Clone the linked list to another linked list.
+6. Clone the linked list to another linked list
+=================================================================================================================
+Asked in Morgan Stenly:-
+1.
 =================================================================================================================
 Asked in JP Morgan:-
 0. Suppose I have text file which contains millions of records.

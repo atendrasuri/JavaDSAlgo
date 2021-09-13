@@ -6,100 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BSTQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinarySearchTreeTrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinarySearchTreeTrim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeBottomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeBottomView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConstructFromInorderPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeConstructFromInorderPostorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConstructFromPreInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeConstructFromPreInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConvertToGreaterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeConvertToGreaterTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeIsBTvalidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeIsBTvalidBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeLeftSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeLeftSideView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreePrintAllExceptBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreePrintAllExceptBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeRightSideView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeTopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeTopView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/CombinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/EggDroppingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/EggDroppingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/KnapSackProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/KnapSackProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/LCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/LPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestUniqueSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/LongestUniqueSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/MaxPathSumMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MaxPathSumMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/MinimumCostPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumCostPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/MinimumJumpToReachEndofArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumJumpToReachEndofArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DistributeCandiesToPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DistributeCandiesToPeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FindKPairsWithSmallestSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FindKPairsWithSmallestSums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FirstMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FirstUniqueCharacterInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FloodFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FormMinNumberFromGivenSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FriendCircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FriendCircles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FrogJumpToRiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FrogJumpToRiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Generate0And1with25And75Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/Generate0And1with25And75Probability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/HouseRobberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/HouseRobberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/HouseRobberIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/HouseRobberIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/JewelsAndStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/KClosestPointsToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/KClosestPointsToOrigin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/KthSmallestElementBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/KthSmallestElementBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LargestRectangleInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/LargestRectangleInHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LetterCombinationsPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/LetterCombinationsPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ManMovingNStepsInAMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ManMovingNStepsInAMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MaximalRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaximalRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MaximumSumNoAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaximumSumNoAdjacent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MaximumSumNoAdjacentBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaximumSumNoAdjacentBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MeetingRoomII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MeetingRoomII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinSwapRequiredToBringAllTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MinSwapRequiredToBringAllTogether.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinimumNoOfPointswhichCoversEntireSetIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MinimumNoOfPointswhichCoversEntireSetIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinimumNumberofPlatformsRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MinimumNumberofPlatformsRequired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinimumSwapREquiredToSortAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MinimumSwapREquiredToSortAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MissingRepeatElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MissingRepeatElementArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MostCommonWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MostCommonWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PartitionPointInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PartitionPointInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PathSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PossibleDecodingOfGivenDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PossibleDecodingOfGivenDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/RemoveAllAdjacentDuplicatesInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/RemoveAllAdjacentDuplicatesInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/RemoveconsuChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/RemoveconsuChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ReorganizeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/RobotReturnToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/RobotReturnToOrigin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SlidingWindowMaximum_Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SlidingWindowMaximum_Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SlopeOfLineproblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SlopeOfLineproblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/Soln_863_AllNodesDistanceKBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SortArrayByParity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SortArrayByParity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SortCharactersByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SortCharactersByFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SortStringByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SortStringByFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/StairCaseProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/StairCaseProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SubArraywithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SubArraywithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/SumOfMinElementsAllSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/SumOfMinElementsAllSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TopKClosestElementsToGivenValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKClosestElementsToGivenValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKFrequentWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/UniquePathsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/UniquePathsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/MaxSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/MaxSumSubArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,9 +116,9 @@
       <recent name="$PROJECT_DIR$/Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReAssignPriority">
-    <configuration name="DesignADam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.google.DesignADam" />
+  <component name="RunManager" selected="Application.BuySellStock">
+    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.google.BuySellStock" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
@@ -222,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReAssignPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.ReAssignPriority" />
+    <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.arrays.singledimension.subArray.MaxSumSubArray" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
+          <option name="PATTERN" value="com.suri.datastructure.arrays.singledimension.subArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sol_633_SumofSquareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.Sol_633_SumofSquareNumbers" />
+    <configuration name="MinimumNumberofPlatformsRequired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.amazom.MinimumNumberofPlatformsRequired" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
+          <option name="PATTERN" value="com.suri.companyWise.amazom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitIntoTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.SplitIntoTwo" />
+    <configuration name="ReorganizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.amazom.ReorganizeString" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
+          <option name="PATTERN" value="com.suri.companyWise.amazom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.TEst" />
+    <configuration name="Sol_621_TaskScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.Sol_621_TaskScheduler" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
@@ -275,19 +183,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TEst" />
-      <item itemvalue="Application.DesignADam" />
-      <item itemvalue="Application.Sol_633_SumofSquareNumbers" />
-      <item itemvalue="Application.SplitIntoTwo" />
-      <item itemvalue="Application.ReAssignPriority" />
+      <item itemvalue="Application.ReorganizeString" />
+      <item itemvalue="Application.MinimumNumberofPlatformsRequired" />
+      <item itemvalue="Application.Sol_621_TaskScheduler" />
+      <item itemvalue="Application.MaxSumSubArray" />
+      <item itemvalue="Application.BuySellStock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReAssignPriority" />
-        <item itemvalue="Application.SplitIntoTwo" />
-        <item itemvalue="Application.Sol_633_SumofSquareNumbers" />
-        <item itemvalue="Application.DesignADam" />
-        <item itemvalue="Application.TEst" />
+        <item itemvalue="Application.BuySellStock" />
+        <item itemvalue="Application.MaxSumSubArray" />
+        <item itemvalue="Application.Sol_621_TaskScheduler" />
+        <item itemvalue="Application.MinimumNumberofPlatformsRequired" />
+        <item itemvalue="Application.ReorganizeString" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +250,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,7 +397,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/MaxSumSubArray.java</url>
-          <line>50</line>
+          <line>46</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1417,16 +1326,6 @@
           <option name="timeStamp" value="364" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_96_UniqueBinarySearchTrees.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="365" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_96_UniqueBinarySearchTrees.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="366" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/DesignADam.java</url>
           <line>26</line>
           <option name="timeStamp" value="367" />
@@ -1455,6 +1354,101 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ReAssignPriority.java</url>
           <line>29</line>
           <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_96_UniqueBinarySearchTrees.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LCABinaryTree.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LCABinaryTree.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LCABinaryTree.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LCABinaryTree.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LCABinaryTree.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/ReorganizeString.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_621_TaskScheduler.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_621_TaskScheduler.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_621_TaskScheduler.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_621_TaskScheduler.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/BuySellStock.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/BuySellStock.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="407" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java</url>
