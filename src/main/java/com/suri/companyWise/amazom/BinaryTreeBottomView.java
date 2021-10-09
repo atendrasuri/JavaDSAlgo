@@ -24,7 +24,7 @@ public class BinaryTreeBottomView {
 
         BinaryTreeBottomView binaryTreeBottomView = new BinaryTreeBottomView();
         binaryTreeBottomView.createTree();
-        binaryTreeBottomView.inOrder(binaryTreeBottomView.root);
+       // binaryTreeBottomView.inOrder(binaryTreeBottomView.root);
         System.out.println();
         binaryTreeBottomView.bottomView(binaryTreeBottomView.root);
 
