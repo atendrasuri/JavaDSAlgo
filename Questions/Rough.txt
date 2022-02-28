@@ -1,0 +1,119 @@
+public class Address{
+
+   ptivate string street;
+   private string houseNo;
+}
+
+ public final class  Employee implmentes Comparator<Employee>{
+
+   private int empId;
+   private String empName;
+   private Address address;
+
+   //getter and setter
+
+
+
+
+   public int hashCode(){
+      return empId+ empName.hascode()+ address.street.hasCode()+address.house.hasCode();
+   }
+
+   public boolean equals(Employee emp){
+
+     return this.empId == emp.id && this.empName == emp.empName;
+
+   }
+
+   // E1 = 0001  E2 = 0001
+
+   // E1 - 1, E2 - 1
+
+   public int compareTo(Employee e1,Employee e1){
+   if(e1.id>e2.id){
+   retrun 1;
+   }else if(e1.id <e2.id){
+     retrun -1;
+   }
+   retrun 0;
+
+   }
+
+
+}
+
+Employee e1 -> id =1, Atendra, Bangalore
+Employee e2 -> id =1, Salendra, Noida
+
+
+class Test{
+
+  public static void main(String arg[]){
+
+
+    Set<Employee> empSet = new TreeSet<>();
+
+    Employee
+
+
+
+  }
+}
+
+
+
+{5,2,2,5,5,5,3,3,6}
+
+
+public static int findFirstRepeating(int arr[]){
+
+     if(arr.length==0){
+       return -1;
+     }
+
+     Map<Ineteger, Ineteger> map = new HashMap<>();
+
+        for(int i=0;i<arr.length;i++){
+
+          if(map.get(arr[i])>=1){
+            return arr[i];
+          }
+          map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
+        }
+        return -1;
+}
+
+{1,1,2,3,5,5,3,3,6}
+public static int findFirstRepeating(int arr[]){
+     if(arr.length==0){
+       return -1;
+     }
+     Set<Integer> set = new HashSet<>();
+        for(int i=0;i<arr.length;i++){
+          if(set.contains(arr[i])){
+            return arr[i];
+          }else{
+          set.add(arr[i]);
+          }
+
+        }
+        return -1;
+}
+
+
+public static int findFirstRepeating(int arr[]){
+     if(arr.length==0){
+       return -1;
+     }
+
+      for(int i =0; i<n;i++){
+       for(int j=i+1; j<n;j++){
+          if(arr[i]==arr[j]){
+            return arr[i];
+          }
+       }
+
+      }
+      return -1;
+}
+

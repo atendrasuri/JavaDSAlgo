@@ -1,3 +1,4 @@
+Minimum Number of Increments on Subarrays to Form a Target Array
 
 Hi
 I am looking for job change.
@@ -709,6 +710,21 @@ GlassDoor
 SalesForce
 Giled Sciences
 Hotstar
+
+
+
+
+
+
+
+=======Freshworks=====
+-Chess coding problem - Queen moves
+-Trapping rain water
+-Scheduling airplanes problem
+-Minimum absolute difference in array
+-Detect loop in linked list
+-Find the third largest element in an unsorted array with single iteration
+
 
 
 

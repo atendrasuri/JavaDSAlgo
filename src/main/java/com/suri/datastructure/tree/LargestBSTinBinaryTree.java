@@ -1,10 +1,8 @@
 package com.suri.datastructure.tree;
 
+import com.suri.companyWise.amazom.TreeNode;
+
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 18/04/19
- * @Description: (Overwrite)
  * Given a binary tree, find size of largest binary search subtree in this
  *  * binary tree.
  *  *
@@ -27,12 +25,18 @@ public class LargestBSTinBinaryTree {
         largestBST.createTree();
         largestBST.inOrder(largestBST.root);
         System.out.println();
-        System.out.println("" + largestBST.largestBST(largestBST.root));
+       System.out.println("" + largestBST.largestBST(largestBST.root));
+
+        System.out.println("" + largestBST.largestBSTInBT(largestBST.root).val);
+
+        System.out.println("" + largestBST.maxSize);
 
     }
 }
 
 class LargestBST {
+    int maxSize=0;
+    TreeNode result =null;
 
     class MinMax {
 
@@ -49,50 +53,40 @@ class LargestBST {
         }
     }
 
-    class Node {
 
-        int data;
-
-        Node left, right;
-
-        Node(int data) {
-            this.data = data;
-            left = right = null;
-        }
-    }
-
-    Node root;
+    TreeNode root;
 
     LargestBST() {
         root = null;
     }
 
-    public int largestBST(Node root) {
+    public int largestBST(TreeNode root) {
         MinMax m = largestBSTInBinaryTree(root);
+        System.out.println();
         return m.size;
     }
 
     public void createTree() {
-        this.root = new Node(25);
+        this.root = new TreeNode(25);
 
-        Node n1 = new Node(18);
-        Node n2 = new Node(50);
+        TreeNode n1 = new TreeNode(18);
+        TreeNode n2 = new TreeNode(50);
 
-        Node n3 = new Node(19);
-        Node n4 = new Node(20);
-        Node n5 = new Node(35);
-        Node n6 = new Node(60);
+        TreeNode n3 = new TreeNode(19);
+        TreeNode n4 = new TreeNode(20);
+        TreeNode n5 = new TreeNode(35);
+        TreeNode n6 = new TreeNode(60);
 
 
-        Node n7 = new Node(15);
-        Node n8 = new Node(18);
-        Node n9 = new Node(25);
-        Node n10 = new Node(20);
-        Node n11 = new Node(40);
-        Node n12 = new Node(55);
-        Node n13 = new Node(70);
+        TreeNode n7 = new TreeNode(15);
+        TreeNode n8 = new TreeNode(18);
+        TreeNode n9 = new TreeNode(25);
+        TreeNode n10 = new TreeNode(20);
+        TreeNode n11 = new TreeNode(40);
+        TreeNode n12 = new TreeNode(55);
+        TreeNode n13 = new TreeNode(70);
 
-        Node n14 = new Node(25);
+        TreeNode n14 = new TreeNode(25);
 
         root.left = n1;
         root.right = n2;
@@ -118,19 +112,19 @@ class LargestBST {
 
     }
 
-    public void inOrder(Node root) {
+    public void inOrder(TreeNode root) {
 
         if (root == null) {
             return;
         }
 
         inOrder(root.left);
-        System.out.print(" " + root.data);
+        System.out.print(" " + root.val);
         inOrder(root.right);
 
     }
 
-    public MinMax largestBSTInBinaryTree(Node root) {
+    public MinMax largestBSTInBinaryTree(TreeNode root) {
 
         if (root == null) {
             return new MinMax();
@@ -146,7 +140,7 @@ class LargestBST {
         //of this node is not greater/equal than max of left and less than min of right
         //then subtree with this node as root will not be BST.
         //Return false and max size of left and right subtree to parent
-        if (left.isBST == false || right.isBST == false || (left.max > root.data || right.min <= root.data)) {
+        if (left.isBST == false || right.isBST == false || (left.max > root.val || right.min <= root.val)) {
             m.isBST = false;
             m.size = Math.max(left.size, right.size);
             return m;
@@ -161,14 +155,54 @@ class LargestBST {
 
         //if root.left is null then set root.data as min else
         //take min of left side as min
-        m.min = root.left == null ? root.data : left.min;
+        m.min = root.left == null ? root.val : left.min;
 
         //if root.right is null then set root.data as max else
         //take max of right side as max.
-        m.max = root.right == null ? root.data : right.max;
+        m.max = root.right == null ? root.val : right.max;
 
         return m;
 
 
     }
+
+
+    TreeNode largestBSTInBT(TreeNode root) {
+
+        if (root == null) {
+            return null;
+        }
+
+        TreeNode left = largestBSTInBT(root.left);
+        TreeNode right = largestBSTInBT(root.right);
+
+        if (isBST(left, Integer.MIN_VALUE, Integer.MAX_VALUE) && isBST(right, Integer.MIN_VALUE, Integer.MAX_VALUE)) {
+            int size = size(left) + size(right) + 1;
+            if (size > maxSize) {
+                maxSize = size;
+                result = root;
+            }
+        }
+        return result;
+    }
+
+    public boolean isBST(TreeNode root, int min, int max){
+        if(root==null){
+            return true;
+        }
+
+        if(root.val<=min || root.val>=max){
+            return false;
+        }
+        return isBST(root.left, min, root.val) && isBST(root.left, root.val, max);
+    }
+
+    public  int size(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        return size(root.left)+size(root.right)+1;
+    }
+
+
 }

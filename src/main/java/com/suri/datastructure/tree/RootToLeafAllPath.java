@@ -1,6 +1,9 @@
 package com.suri.datastructure.tree;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -58,7 +61,12 @@ class BTRootToLeaf{
     public void printRootToLeaf(){
 
         ArrayList<Integer> list = new ArrayList<>();
-        rootToLeafPath(root,list );
+        //rootToLeafPath(root,list );
+
+        Set<List<Integer>> paths = new HashSet<>();
+        List<Integer> list1 = new ArrayList<>();
+        findRootToLeafPaths(root, paths, list1);
+        System.out.println(paths);
     }
 
 
@@ -110,15 +118,26 @@ class BTRootToLeaf{
         //rootToLeafPath(root.left, new ArrayList<>(list));
         //rootToLeafPath(root.right, new ArrayList<>(list));
         list.remove(list.size()-1);
+    }
 
+    public static void findRootToLeafPaths(Node root, Set<List<Integer>> paths, List<Integer> list){
+        if(root == null){
+            return ;
+        }
+        list.add(root.data);
+        if(root.left == null && root.right == null){
+            paths.add(new ArrayList<>(list));
+           list.remove(list.size()-1);
+            return;
+        }
+        findRootToLeafPaths(root.left, paths, list);
+        findRootToLeafPaths(root.right, paths, list);
+        list.remove(list.size()-1);
     }
 
     public void printPath(ArrayList<Integer>list){
 
         list.forEach(System.out::print);
-       /* for(Integer i: list){
-            System.out.print(i+" ");
-        }*/
         System.out.println("#");
     }
 }

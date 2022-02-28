@@ -1,10 +1,6 @@
 package com.suri.java.immutable;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 16/02/19
- * @Description: (Overwrite)
  * Immutable class:-
  * <p>
  * Don't provide "setter" methods — methods that modify fields or objects referred to by fields.

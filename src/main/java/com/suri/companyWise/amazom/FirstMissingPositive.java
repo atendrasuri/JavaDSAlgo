@@ -3,12 +3,6 @@ package com.suri.companyWise.amazom;
 import java.util.PriorityQueue;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 21/10/19
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
  * @History: Given an unsorted integer array, find the smallest missing positive integer.
  * <p>
  * Example 1:

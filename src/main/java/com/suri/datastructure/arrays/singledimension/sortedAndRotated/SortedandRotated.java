@@ -17,6 +17,9 @@ public class SortedandRotated {
         int arr1[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
         int arr2[] = {30, 40, 50, 10, 20};
 
+        int arr3[] = {1,3};
+        int k =3;
+
 
 //        System.out.println(findElement(array,32));
 //        System.out.println(findElement(arr,9));

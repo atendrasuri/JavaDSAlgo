@@ -12,11 +12,8 @@ import java.util.PriorityQueue;
  * 2. Please describe the technical usage of the class.
  * Given, the starting and ending time of different meetings, what is the minimum number of conference rooms that will be enough to accommodate all of them.
  * I/p : Meeting I – 8:30 – 12:50
- * <p>
  * Meeting II – 10:15 – 11:30
- * <p>
  * Meeting III – 11:45 – 1:30
- * <p>
  * O/p : 2
  */
 public class MeetingRoomII {

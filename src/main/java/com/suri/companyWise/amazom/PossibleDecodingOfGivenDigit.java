@@ -1,10 +1,7 @@
 package com.suri.companyWise.amazom;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 20/03/19
- * @Description: (Overwrite)
+
  * Let 1 represent ‘A’, 2 represents ‘B’, etc. Given a digit sequence, count the number of possible decodings of the given digit sequence.
  * Examples:
  * <p>
@@ -24,7 +21,10 @@ public class PossibleDecodingOfGivenDigit {
     System.out.println("Count is " +
             decode(String.valueOf(digits)));*/
 
-    System.out.println(decodeSecondApproach("121"));
+   // System.out.println(decodeSecondApproach("12"));
+    System.out.println(numDecodings("12"));
+
+    //System.out.println(decodeSecondApproach("21123"));
   }
 
   public static int decode(String input) {
@@ -53,7 +53,7 @@ public class PossibleDecodingOfGivenDigit {
 
     int[] dp = new int[s.length() + 1];
     dp[0] = 1;
-    dp[1] = dp[1]=s.charAt(0)=='0'?0:1;
+    dp[1] =s.charAt(0)=='0'?0:1;
 
     for (int i = 2; i <= s.length(); i++) {
 
@@ -68,6 +68,31 @@ public class PossibleDecodingOfGivenDigit {
       }
 
 
+    }
+    return dp[s.length()];
+
+  }
+
+  public static int numDecodings(String s) {
+
+
+    int dp[] = new int[s.length()+1];
+
+    dp[0]=1;
+    dp[1]= s.charAt(0)=='0'?0:1;
+
+    for(int i = 2;i<=s.length();i++){
+
+      int oneDigit = Integer.parseInt(s.substring(i-1,i));
+
+      int twoDigit = Integer.parseInt(s.substring(i-2,i));
+
+      if(oneDigit>=1){
+        dp[i]= dp[i]+dp[i-1];
+      }
+      if(twoDigit>=10 && twoDigit<=26){
+        dp[i]= dp[i]+dp[i-2];
+      }
     }
     return dp[s.length()];
 

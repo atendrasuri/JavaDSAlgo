@@ -51,23 +51,17 @@ public class NQueensProblems {
   }
 
   public static boolean solveNQueen(int board[][], int col) {
-
     if (col >= N) {
       return true;
     }
-
     for (int i = 0; i < N; i++) {
-
       if (isSafe(board, i, col)) {
-
         board[i][col] = 1;
         if (solveNQueen(board, col + 1)) {
           return true;
         } else {
           board[i][col] = 0;
         }
-
-
       }
     }
     return false;
@@ -94,6 +88,5 @@ public class NQueensProblems {
       }
     }
     return true;
-
   }
 }

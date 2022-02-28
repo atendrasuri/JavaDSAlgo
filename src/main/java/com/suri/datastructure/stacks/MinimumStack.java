@@ -10,8 +10,6 @@ package com.suri.datastructure.stacks;
  */
 public class MinimumStack {
   public static void main(String[] args) {
-
-
     MinStack mStack = new MinStack();
     mStack.push(7);
     mStack.push(8);
@@ -58,7 +56,6 @@ class MinStack {
       temp.next = top;
       temp.min = Math.min(top.min, x);
       top = temp;
-
     }
   }
 
