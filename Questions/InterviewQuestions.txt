@@ -1,3 +1,24 @@
+16.8
+
+3490903.81 (16.8%)
+
+https://www.interviewbit.com/search/?q=Facebook
+
+https://github.com/donnemartin/system-design-primer
+https://leetcode.com/discuss/career/229177/My-System-Design-Template
+
+
+https://ocw.mit.edu/courses/electrica...
+https://algs4.cs.princeton.edu/lectures/
+https://www.geeksforgeeks.org/data-st...
+https://www.udacity.com/course/data-s...
+https://www.coursera.org/learn/algori...
+https://www.programiz.com/dsa/
+https://www.educative.io/module/data-...
+https://education.github.com/pack
+
+https://mail.google.com/mail/u/0/#search/vmware+hackerrank/FMfcgxwCgVWsjktVmJSjQpBKsLkqzgzj
+
 Minimum Number of Increments on Subarrays to Form a Target Array
 
 Hi
@@ -724,6 +745,113 @@ Hotstar
 -Minimum absolute difference in array
 -Detect loop in linked list
 -Find the third largest element in an unsorted array with single iteration
+
+
+
+
+
+
+
+
+
+
+
+Design Brief:
+
+You're part of the team at a large social media company tasked with handling large volumes of incoming data.
+
+Goal: Design the authoring experience. Your design should focus on the following scenarios.
+Basically content manifests on social media in 2 primary ways:
+
+1. Assume you're on a road trip - and want to share your travelogue with friends and family. What that means is - let's say you take a few photos and short videos. At the end of each day, you share these on social media websites (Path, facebook, LinkedIn, reddit, ....other platform of choice) along with a short description of your day. Handle incoming data. Scan it for community safety guidelines, fact check etc and persist it.
+
+2. Re-sharing. People also use social media for things like seeking help, reporting missing persons, requesting medical aid and so on. Sometimes you see these posts that motivate you to help , and you re-share in the hope that some folks from your social graph would be happy to help. You should be able to add your own blurb to it - much like the case above, while also preserving the original post entirely. People should be able to comment, like , re-share etc like they engage with case 1 above.
+
+
+Assumptions:
+
+Assume that the social graph is handled by a different team and everything you need is provided to you via invokable apis.
+Assume that user permissions / on boarding etc is handled by a different team and details are callable at will.
+Assume that the feed generation / read is not something you need to worry about and is handled by a different team.
+Assume high content volumes.
+	DAUs – daily active users: Right now, 1.9 billion daily users access your platform, with a 10% anticipated increase year-over-year
+	MAUs – monthly active users: Right now, 2.9 billion monthly users access your platform, with a 10% anticipated increase year-over-year
+        Highest traffic time is Wednesday at 9 am and 1 pm, posting then will typically get the most engagement. Throw in special spikes during sporting events, festivals elections etc. Meaning - traffic is not evenly distributed.
+
+Focus on the large components and the interactions, hand off points between and scalability of these components.
+
+
+
+1. Any user should be able to post (Image, video, text), while posting, you have to community guidelines check, fact check
+2. Posts + the activities (like, comment, share) done by other friends
+
+
+
+
+
+ Account
+ id,
+ passowrd
+ a
+
+
+ install -> installrpd, replay mater
+ upgrade
+ rollback
+ path
+
+
+ public class AbstarctCommand{
+
+
+     Stack<AbstarctCommand> stack = new Stack();
+     public void execute(CommandPack pack){
+
+       for(Command cmd:pack.ge){
+        try{
+           stack.push(cmd);
+           stackcmd.execute()
+        }catch({
+
+            stack.pop.rollBack
+
+        })
+
+       }
+
+
+
+     }
+
+     public void rollBac(){
+
+
+
+     }
+
+
+ }
+
+
+ public class InstallRpdCommand extends AbstractCommand{
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

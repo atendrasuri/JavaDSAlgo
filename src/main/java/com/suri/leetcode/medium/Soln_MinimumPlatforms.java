@@ -48,9 +48,7 @@ public class Soln_MinimumPlatforms {
     {
         Arrays.sort(arr);
         Arrays.sort(dep);
-
         int result =1;
-
         int i=1;
         int j =0;
         int platform_required =1;

@@ -45,6 +45,9 @@ public class TopKClosestElementsToGivenValue {
 
     PriorityQueue<Integer> maxHeap = new PriorityQueue();
 
+    maxHeap.addAll(map.keySet());
+    int x1 = maxHeap.remove();
+
     for (int key : map.keySet()) {
 
       if (maxHeap.size() < k) {

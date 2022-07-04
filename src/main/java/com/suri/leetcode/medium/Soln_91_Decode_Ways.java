@@ -40,7 +40,9 @@ public class Soln_91_Decode_Ways {
     System.out.println("Count is " +
             decode(String.valueOf(digits)));*/
 
-         System.out.println(decodeSecondApproach("121"));
+         //System.out.println(decodeSecondApproach("121"));
+
+        System.out.println(decodeSecondApproach("10"));
 
         //System.out.println(decodeSecondApproach("21123"));
     }

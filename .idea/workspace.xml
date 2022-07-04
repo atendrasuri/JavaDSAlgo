@@ -5,42 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DesignBooks/OOAD 1.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/OOAD 2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/OOAD 3.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/OOAD 4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/System Design Concepts.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/System Design LinkedIn.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/System Design.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignBooks/SystemDesign.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview Experiences.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Interview Experiences.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/bstPractice/ABC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/bstPractice/BSTPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/bstPractice/GFG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeConstructFromPreInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/BinaryTreeConstructFromPreInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/FirstMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MeetingRoomII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MeetingRoomII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PossibleDecodingOfGivenDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/PossibleDecodingOfGivenDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/NQueensProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/NQueensProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/sortedAndRotated/SortedandRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/sortedAndRotated/SortedandRotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stacks/MinimumStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stacks/MinimumStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LargestBSTinBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/LargestBSTinBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafAllPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafAllPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/SpreadSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/SpreadSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/UniversityCareerFair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/UniversityCareerFair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/VowelSubStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/hackerrank/VowelSubStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/collection/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/collection/HashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/deadlock/DeadLockProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/deadlock/DeadLockProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/immutable/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/immutable/ImmutableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_37_Sudoku_Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_37_Sudoku_Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ProductofArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ProductofArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_1277_CountSquareSubmatrices1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_1277_CountSquareSubmatrices1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_1448_CountGoodNodesBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_1448_CountGoodNodesBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_3_LongestUniqueSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_3_LongestUniqueSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_621_TaskScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_621_TaskScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_633_SumofSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_633_SumofSquareNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_767_ReorganizeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_767_ReorganizeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_907_Sum_of_Subarray_Minimums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_907_Sum_of_Subarray_Minimums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_95_UniqueBinarySearchTreesII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_95_UniqueBinarySearchTreesII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_96_UniqueBinarySearchTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_96_UniqueBinarySearchTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/TrapRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/TrapRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKClosestElementsToGivenValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKClosestElementsToGivenValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MissingTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MissingTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DFSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxPathSumBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxSumPathBtTwoleaves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/design/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/design/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/singleton/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/designpattern/singleton/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_268_Missing_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_268_Missing_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_239_Sliding_Window_Maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_239_Sliding_Window_Maximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ClimbStairsWithVariableJumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ClimbStairsWithVariableJumps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ProductofArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_238_ProductofArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_1143_Longest_Common_Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_DP_1143_Longest_Common_Subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_BinaryTree_AllNodesDistanceK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_BinaryTree_AllNodesDistanceK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_91_Decode_Ways.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_91_Decode_Ways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_MinimumPlatforms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_MinimumPlatforms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vinit.ser" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,58 +124,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578650588589" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DesignBooks" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignBooks" />
       <recent name="$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom" />
       <recent name="$PROJECT_DIR$/src/main/java/com/suri/dec26" />
       <recent name="$PROJECT_DIR$/src/main/java/com/suri/java/vinit" />
       <recent name="$PROJECT_DIR$/Books" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.suri.CDailyUse.service.impl" />
       <recent name="com.suri.leetcode.medium" />
+      <recent name="com.suri.leetcode.hard" />
       <recent name="com.suri.leetcode.easy" />
+      <recent name="com.suri.CDailyUse.service.impl" />
       <recent name="com.suri.companyWise.google" />
-      <recent name="com.suri.companyWise.AmazonInterview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Soln_207_Course_Schedule">
-    <configuration name="Soln_207_Course_Schedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.Soln_207_Course_Schedule" />
-      <module name="JavaDSAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Soln_31_Next_Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.Soln_31_Next_Permutation" />
-      <module name="JavaDSAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Soln_WorkDependencyProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.hard.Soln_WorkDependencyProblem" />
+  <component name="RunManager" selected="Application.TestJune27">
+    <configuration name="Sol_42_Trapping_Rain_Water" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.hard.Sol_42_Trapping_Rain_Water" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
@@ -189,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.catest.Test" />
+    <configuration name="TestJune21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.catest.TestJune21" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
@@ -202,8 +174,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.catest.Test1" />
+    <configuration name="TestJune21_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.catest.TestJune21_1" />
+      <module name="JavaDSAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suri.catest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJune27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.catest.TestJune27" />
+      <module name="JavaDSAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suri.catest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_June21_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.catest.Test_June21_2" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
@@ -216,19 +214,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Soln_31_Next_Permutation" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.Soln_WorkDependencyProblem" />
-      <item itemvalue="Application.Soln_207_Course_Schedule" />
+      <item itemvalue="Application.Sol_42_Trapping_Rain_Water" />
+      <item itemvalue="Application.TestJune21" />
+      <item itemvalue="Application.TestJune21_1" />
+      <item itemvalue="Application.Test_June21_2" />
+      <item itemvalue="Application.TestJune27" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Soln_207_Course_Schedule" />
-        <item itemvalue="Application.Soln_WorkDependencyProblem" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Soln_31_Next_Permutation" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestJune27" />
+        <item itemvalue="Application.Test_June21_2" />
+        <item itemvalue="Application.TestJune21_1" />
+        <item itemvalue="Application.TestJune21" />
+        <item itemvalue="Application.Sol_42_Trapping_Rain_Water" />
       </list>
     </recent_temporary>
   </component>
@@ -700,7 +698,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1000,7 +998,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DFSTest.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="271" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1460,7 +1458,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java</url>
-          <line>94</line>
+          <line>134</line>
           <option name="timeStamp" value="424" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1685,22 +1683,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java</url>
-          <line>126</line>
+          <line>162</line>
           <option name="timeStamp" value="485" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java</url>
-          <line>130</line>
+          <line>165</line>
           <option name="timeStamp" value="486" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java</url>
-          <line>143</line>
+          <line>176</line>
           <option name="timeStamp" value="487" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_33_Search_in_Rotated_Sorted_Array.java</url>
-          <line>144</line>
+          <line>177</line>
           <option name="timeStamp" value="488" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1745,32 +1743,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>44</line>
+          <line>39</line>
           <option name="timeStamp" value="519" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="520" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="521" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="522" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="523" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_34_FindFirstAndLastPositionOfElement.java</url>
-          <line>75</line>
+          <line>79</line>
           <option name="timeStamp" value="524" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1834,26 +1812,6 @@
           <option name="timeStamp" value="539" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumCostPath.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="542" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumCostPath.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="543" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumCostPath.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="544" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/DP/MinimumCostPath.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="545" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/Test.java</url>
           <line>60</line>
           <option name="timeStamp" value="547" />
@@ -1898,6 +1856,286 @@
           <line>71</line>
           <option name="timeStamp" value="570" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_WorkDependencyProblem.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_WorkDependencyProblem.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_9999_Minimize_Sum_of_Array_most_K_reduction.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_9999_Minimize_Sum_of_Array_most_K_reduction.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch02.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_17_LetterCombinationsPhoneNumber.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_45_Jump_Game_II.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="588" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_45_Jump_Game_II.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_45_Jump_Game_II.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="590" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_45_Jump_Game_II.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch07.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DFSTest.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_289_Game_of_Life.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch10.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch10.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch10.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch10.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch10.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_243_Shortest_Word_Distance.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MissingTwoNumbers.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MissingTwoNumbers.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_BinaryTree_AllNodesDistanceK.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_BinaryTree_AllNodesDistanceK.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch25.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMarch25.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="630" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/MaxAreaOfIsland.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_75_01n2.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_75_01n2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestApril22.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="640" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="641" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="645" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_114_Flatten_Binary_Tree_Linked_List.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_9999_Minimum_Cost_of_ropes.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="650" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKClosestElementsToGivenValue.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/amazom/TopKClosestElementsToGivenValue.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/test28/TestMay05.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/exception/TryCatchFinally.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="659" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="661" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_BT_99_Recover_Binary_Search_Tree.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="662" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/catest/TestMay30.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/MyCode.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java</url>
           <line>47</line>
@@ -1916,7 +2154,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>59</line>
+          <line>60</line>
           <properties class="com.suri.java.vinit.Exam" method="printLevel">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1936,7 +2174,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>57</line>
+          <line>58</line>
           <properties field="level" class="com.suri.java.vinit.Exam" />
           <option name="timeStamp" value="189" />
         </line-breakpoint>

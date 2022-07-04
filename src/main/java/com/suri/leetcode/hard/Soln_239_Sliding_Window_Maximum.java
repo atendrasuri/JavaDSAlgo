@@ -61,7 +61,6 @@ public class Soln_239_Sliding_Window_Maximum {
         //do for N-k elements
         for (int i = k; i < arr.length; i++) {
             int max = Integer.MIN_VALUE;
-            ;
             for (int j = 0; j < window.size(); j++) {
                 max = Math.max(max, window.get(j));
             }

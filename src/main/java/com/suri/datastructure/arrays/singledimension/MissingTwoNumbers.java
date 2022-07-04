@@ -51,7 +51,8 @@ public class MissingTwoNumbers {
         }
         int x3 = x1^x2;
         System.out.println(x3);
-        System.out.println("~(x3-1)" + ~(x3-1));
+        System.out.println(x3-1);
+        System.out.println("~(x3-1)=" + ~(x3-1));
         int setRightBit = x3&~(x3-1);
         System.out.println("setRightBit " + setRightBit );
         int x = 0, y = 0;

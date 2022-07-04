@@ -54,6 +54,7 @@ public class Soln_863_BinaryTree_AllNodesDistanceK {
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         List<TreeNode> nodeToRootPath = new ArrayList<>();
+
         nodeToRoot(root, target, nodeToRootPath);
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nodeToRootPath.size(); i++) {

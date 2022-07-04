@@ -32,47 +32,49 @@ public class Soln_34_FindFirstAndLastPositionOfElement {
     public static void main(String[] args) {
 
         int arr1[] = {1, 3, 5, 5, 5, 5};
-        System.out.println(firstAndLast(arr1, 6,5));
+        int res[]= searchRange(arr1,5);
+        System.out.println(res[0]+"----"+res[1]);
 
     }
 
-    public static ArrayList<Integer> firstAndLast(int arr[], int n, int x){
-        ArrayList<Integer> result = new ArrayList<>();
-        int l =0;
-        int r=n-1;
-        int firstIndex=-1;
-        int lastIndex=-1;
+    public static int[] searchRange(int[] nums, int target) {
+        int result[] = new int[2];
+        result[0]=-1;
+        result[1]=-1;
+        int l = 0;
+        int r = nums.length-1;
         while(l<=r){
             int mid = l+(r-l)/2;
-            if( arr[mid]==x){
-                firstIndex = mid;
-                //continue searching left part
-                r= mid-1;
-            }else if(x<=arr[mid]){
-                r= mid-1;
-            }else{
+            if(nums[mid] == target){
+                result[0]= mid;
+                //continue seraching in left part
+                r = mid-1;
+            }else if(target>nums[mid]){
                 l = mid+1;
+            }else{
+                r= mid-1;
             }
         }
+
         l=0;
-        r = n-1;
+        r= nums.length-1;
+
         while(l<=r){
+
             int mid = l+(r-l)/2;
-            if(arr[mid]==x){
-                lastIndex = mid;
-                //continue searching right part
-                l = mid+1;
-            }else if(x>=arr[mid]){
+
+            if(nums[mid] == target){
+                result[1]= mid;
+                //continue seraching in right part
+                l= mid+1;
+
+            }else if(target>nums[mid]){
                 l = mid+1;
             }else{
-                r=mid-1;
+                r= mid-1;
             }
         }
-
-        result.add(firstIndex);
-
-        result.add(lastIndex);
-
         return result;
+
     }
 }

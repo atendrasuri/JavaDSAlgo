@@ -37,6 +37,7 @@ public class DFSTest {
     list.add(list2);
     list.add(list3);
     list.add(list4);
+    System.out.println(list);
 
     //dfs(0, list, vis);
     dfsRecursive(0, list, vis);

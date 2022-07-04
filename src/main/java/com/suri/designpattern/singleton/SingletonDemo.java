@@ -1,53 +1,45 @@
 package com.suri.designpattern.singleton;
 
-/**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 06/12/18
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * @History:
- */
+
+import com.suri.catest.test28.MySingleton;
+
+import java.io.*;
+
 public class SingletonDemo {
-    public static void main(String[] args)throws CloneNotSupportedException {
-        Singleton obj1  = Singleton.getInstance();
+    public static void main(String[] args) throws CloneNotSupportedException, IOException {
+        Singleton mySingleton1  = Singleton.getInstance();
         Singleton obj2 = Singleton.getInstance();
         //Object obj3 = obj1.clone();
 
-        System.out.println(""+obj1 +"---->"+obj2);
-    }
-}
+        System.out.println(""+mySingleton1 +"---->"+obj2);
+        //System.out.println(obj3);
 
 
-class Singleton{
+        ObjectOutputStream objectOutputStream =null;
+        try {
+            objectOutputStream= new ObjectOutputStream(new FileOutputStream("abc"));
 
+            objectOutputStream.writeObject(mySingleton1);
+        }catch (Exception ex){
 
-    private static Singleton singletonIntance;
-
-
-
-    private Singleton(){
-
-    }
-
-    public static Singleton  getInstance(){
-
-        if(singletonIntance==null)
-        {
-            synchronized (Singleton.class){
-                if(singletonIntance==null){
-                    singletonIntance = new  Singleton();
-                }
-            }
+        }finally {
+            objectOutputStream.close();
         }
 
-        return singletonIntance;
+        ObjectInputStream objectInputStream =null;
+        MySingleton mySingleton3=null;
+        try {
+            objectInputStream= new ObjectInputStream(new FileInputStream("abc"));
 
-    }
+            mySingleton3 = (MySingleton)objectInputStream.readObject();
+        }catch (Exception ex){
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        throw new CloneNotSupportedException();
+        }finally {
+            objectInputStream.close();
+        }
+
+        System.out.println(mySingleton1+"    "+mySingleton3);
     }
 }
+
+

@@ -39,7 +39,8 @@ public class Test extends Exam {
         try {
             int c = 1/0;
         } catch (Exception e) {
-            System.out.println("E");
+            //System.out.println("E");
+            throw e;
         } finally {
             System.out.println("F");
         }

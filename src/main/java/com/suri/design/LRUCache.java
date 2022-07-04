@@ -85,7 +85,7 @@ class LRUCacheImpl {
         head = new DNode();
         head.prev = null;
 
-        tail = new LRUCacheImpl.DNode();
+        tail = new DNode();
         tail.next = null;
 
         head.next = tail;

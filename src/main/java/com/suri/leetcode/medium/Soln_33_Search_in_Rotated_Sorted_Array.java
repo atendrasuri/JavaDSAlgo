@@ -25,29 +25,69 @@ Input: nums = [1], target = 0
 Output: -1
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://www.youtube.com/watch?v=1uu3g_uu8O0&t=246s&ab_channel=Pepcoding
  */
 public class Soln_33_Search_in_Rotated_Sorted_Array {
 
     public static void main(String[] args) {
        /* int nums[] = {4, 5, 6, 7, 0, 1, 2};
         int target = 0;*/
-        int nums[] = {1, 3};
-        int target = 3;
+        /*int nums[] = {1, 3};
+        int target = 3;*/
         /*int nums[] = {1,3};
         int target =2;*/
         /*int nums[] = {3,1};
         int target =3;*/
 
-       /* int nums[]={5, 6, 7, 8, 9, 10, 1, 2, 3};
-        int target =3;*/
-        //System.out.println(search(nums, target));
+        int nums[]={5, 6, 7, 8, 9, 10, 1, 2, 3};
+        int target =3;
+        System.out.println(searchMostOptimizedSol(nums, target));
 
         //System.out.println(searchInSortedAndRotated(nums, target));
 
-        int arr1[] ={4,5,6,7,0,1,2};
+        /*int arr1[] ={4,5,6,7,0,1,2};
 
         int arr11[] ={3,1};
-        System.out.println(new Soln_33_Search_in_Rotated_Sorted_Array().search(arr11, 0, arr11.length-1, 3));
+        System.out.println(new Soln_33_Search_in_Rotated_Sorted_Array().search(arr11, 0, arr11.length-1, 3));*/
+    }
+
+
+
+    public static int searchMostOptimizedSol(int[] nums, int target) {
+
+        int low =0;
+        int high = nums.length-1;
+        while(low<=high){
+
+            int mid = (low+high)/2;
+
+            if(nums[mid]== target){
+                return mid;
+            }
+            // if from low to mid is sorted array
+            if(nums[low]<=nums[mid]){
+
+                // that means target present in range of [low, mid]
+                if(target>=nums[low] && target<nums[mid]){
+
+                    high = mid-1;
+                }else{
+                    low = mid+1;
+                }
+            }
+            // if from mid to high is sorted array
+            else if(nums[mid]<=nums[high]){
+                // that means target present in range of [mid, high]
+                if(target>nums[mid] && target<= nums[high]){
+                    low = mid+1;
+                }else{
+                    high = mid-1;
+                }
+            }
+
+        }
+        return -1;
+
     }
 
     public static int search(int[] arr, int target) {
@@ -118,16 +158,11 @@ public class Soln_33_Search_in_Rotated_Sorted_Array {
 
 
     int search(int arr[], int l, int h, int key)
-    {
-        // Complete this function
-
-
+    {// Complete this function
         int pivot = findPivot(arr, l,h);
-
         if(arr[pivot]==key){
             return pivot;
         }
-
         if(arr[0] > key || pivot == 0){
 
             return  binarySearch1(arr, pivot, h, key);
@@ -138,8 +173,6 @@ public class Soln_33_Search_in_Rotated_Sorted_Array {
     }
 
     public int findPivot(int arr[], int l, int h){
-
-
         while(l<=h){
             int mid = (l+h)/2;
             if(arr[mid]>arr[mid+1]){
@@ -150,7 +183,6 @@ public class Soln_33_Search_in_Rotated_Sorted_Array {
             }else{
                 h = mid-1;
             }
-
         }
         return 0;
     }
@@ -160,9 +192,7 @@ public class Soln_33_Search_in_Rotated_Sorted_Array {
 
 
         while(l<=h){
-
             int mid = (l+h)/2;
-
             if(arr[mid]==key){
                 return mid;
             }
