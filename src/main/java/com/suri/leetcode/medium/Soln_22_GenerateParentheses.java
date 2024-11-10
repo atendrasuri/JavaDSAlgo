@@ -15,12 +15,13 @@ import java.util.List;
  "()(())",
  "()()()"
  ]
-
- https://www.youtube.com/watch?v=sz1qaKt0KGQ&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI&index=9
+ https://leetcode.com/problems/generate-parentheses/description/
+ https://www.youtube.com/watch?v=3L_hgnFY47Q
+ https://en.wikipedia.org/wiki/Catalan_number
  */
 public class Soln_22_GenerateParentheses {
   public static void main(String[] args) {
-    System.out.println(generateParenthesis(3));
+    System.out.println(generateParenthesis(5));
 
   }
   public static List<String> generateParenthesis(int n) {

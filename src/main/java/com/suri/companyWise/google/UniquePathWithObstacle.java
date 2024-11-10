@@ -1,6 +1,6 @@
-package com.suri.catest.test28;
+package com.suri.companyWise.google;
 
-public class TestMay05 {
+public class UniquePathWithObstacle {
 
     public static void main(String[] args) {
 

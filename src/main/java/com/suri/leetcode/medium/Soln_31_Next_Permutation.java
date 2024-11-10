@@ -15,6 +15,7 @@ Given an array of integers nums, find the next permutation of nums.
 
 The replacement must be in place and use only constant extra memory
 https://leetcode.com/problems/next-permutation/
+https://www.youtube.com/watch?v=ho4gTCr0QSk&t=586s
  */
 public class Soln_31_Next_Permutation {
     public static void main(String[] args) {

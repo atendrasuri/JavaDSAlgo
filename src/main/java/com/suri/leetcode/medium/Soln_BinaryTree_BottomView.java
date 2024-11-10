@@ -1,7 +1,9 @@
 package com.suri.leetcode.medium;
 
 
-import com.sun.tools.javac.util.Pair;
+
+
+import com.suri.Pair;
 
 import java.util.*;
 
@@ -67,11 +69,11 @@ public class Soln_BinaryTree_BottomView {
         List<Integer> result = new ArrayList<>();
         Map<Integer, Integer> map = new TreeMap<>();
         Queue<Pair<TreeNode, Integer>> queue = new LinkedList<>();
-        queue.add(new Pair<>(root, 0));
+        queue.add(new Pair(root, 0));
         while (!queue.isEmpty()) {
             Pair temp = queue.remove();
-            int hd = (Integer) temp.snd;
-            TreeNode node = (TreeNode) temp.fst;
+            int hd = (Integer)temp.right;
+            TreeNode node = (TreeNode) temp.left;
             //keep putting in map, in last it will keep only last value of that vertical line
             map.put(hd, node.val);
 

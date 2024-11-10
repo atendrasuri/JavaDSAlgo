@@ -1,7 +1,9 @@
 package com.suri.leetcode.medium;
 
 
-import com.sun.tools.javac.util.Pair;
+
+
+import com.suri.Pair;
 
 import java.util.*;
 
@@ -53,8 +55,8 @@ public class Soln_BinaryTree_TopView {
         queue.add(new Pair<>(root, 0));
         while (!queue.isEmpty()) {
             Pair temp = queue.remove();
-            int hd = (Integer) temp.snd;
-            TreeNode node = (TreeNode) temp.fst;
+            int hd = (Integer) temp.right;
+            TreeNode node = (TreeNode) temp.left;
             if (map.get(hd) == null) {
                 map.put(hd, node.val);
             }

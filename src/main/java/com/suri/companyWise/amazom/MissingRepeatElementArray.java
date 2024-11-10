@@ -25,7 +25,6 @@ public class MissingRepeatElementArray {
 
             int abs_val = Math.abs(arr[i]);
             if (arr[abs_val - 1] > 0) {
-
                 arr[abs_val - 1] = -arr[abs_val - 1];
             } else {
                 System.out.println("Repeating element " + abs_val);

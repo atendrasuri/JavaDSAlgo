@@ -1,6 +1,5 @@
 package com.suri.java.concurrency.countDownLatch;
 
-import sun.tools.asm.CatchData;
 
 import java.util.concurrent.CountDownLatch;
 

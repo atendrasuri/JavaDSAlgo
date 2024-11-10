@@ -18,7 +18,8 @@ https://leetcode.com/problems/trapping-rain-water/
 public class Sol_42_Trapping_Rain_Water {
     public static void main(String[] args) {
 
-        int towers[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+        //int towers[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int towers[] = {0,2,0,3,1,0,1,3,2,1};
         System.out.println(trap(towers));
     }
 

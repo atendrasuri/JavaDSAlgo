@@ -3,7 +3,7 @@ package com.suri.leetcode.hard;
 import java.util.*;
 
 /*
-Given six documents A, B, C, D, E, F and each document has dependency on other documents as given below. Find in which order you will complete reading all documents
+Given six task A, B, C, D, E, F and each task has dependency on other task as given below. Find in which order you will completed all tasks
 
 A - E, F
 B - D, E

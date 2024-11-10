@@ -1,7 +1,5 @@
 package com.suri.leetcode.medium;
 
-import com.suri.leetcode.easy.Soln_543_DiameterofBinaryTree;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,11 +40,11 @@ https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree
 https://www.youtube.com/watch?v=B89In5BctFA&t=203s&ab_channel=Pepcoding
  */
-public class Soln_863_BinaryTree_AllNodesDistanceK {
+public class Soln_863_BinaryTree_AllNodesDistance_K {
     TreeNode root;
     public static void main(String[] args) {
 
-        Soln_863_BinaryTree_AllNodesDistanceK ob  = new Soln_863_BinaryTree_AllNodesDistanceK();
+        Soln_863_BinaryTree_AllNodesDistance_K ob  = new Soln_863_BinaryTree_AllNodesDistance_K();
         ob.createTree();
 
         System.out.println(ob.distanceK(ob.root, ob.root.right.left, 2));

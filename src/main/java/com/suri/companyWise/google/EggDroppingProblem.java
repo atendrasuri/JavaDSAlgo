@@ -32,20 +32,49 @@ package com.suri.companyWise.google;
 
  Input: K = 3, N = 14
  Output: 4
-
+ https://www.youtube.com/watch?v=UvksR0hR9nA
  https://www.youtube.com/watch?v=oCu5QdeXR5w
+
+ https://leetcode.com/problems/super-egg-drop/solution/
  */
 public class EggDroppingProblem {
 
   public static void main(String[] args) {
 
     int e = 2, f = 10;
-    System.out.println(superEggDrop(e,f));
+    System.out.println(superEggDrop1(e,f));
 
-    System.out.println(superEggDrop(2,6));
-    System.out.println(superEggDrop(3,14));
+    System.out.println(superEggDrop1(2,6));
+    System.out.println(superEggDrop1(3,14));
   }
-  public static int superEggDrop(int e, int f) {
+
+  public static int superEggDrop1(int k, int n) {
+
+    int dp[][] = new int[k + 1][n + 1];
+    for (int i = 1; i <= k; i++) {
+
+      for (int j = 1; j <= n; j++) {
+
+        if (j == 1) {
+          dp[i][j] = 1;
+        } else if (i == 1) {
+          dp[i][j] = j;
+        } else {
+          int min = Integer.MAX_VALUE;
+          for (int mj = j - 1, pj = 0; mj >= 0; mj--, pj++) {
+            int v1 = dp[i][mj];//egg survives
+            int v2 = dp[i - 1][pj];// egg drops
+            int val = Math.max(v1, v2);
+            min = Math.min(min, val);
+          }
+          dp[i][j] = min + 1;
+        }
+      }
+    }
+    return dp[k][n];
+  }
+
+  public static int superEggDrop2(int e, int f) {
     if(f==0 ||f==1){
       return 1;
     }
