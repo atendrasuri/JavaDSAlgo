@@ -1,5 +1,7 @@
 package com.suri.leetcode.medium;
 
+import com.suri.common.TreeNode;
+
 /*
 Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 

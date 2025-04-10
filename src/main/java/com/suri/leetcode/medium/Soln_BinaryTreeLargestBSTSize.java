@@ -1,5 +1,7 @@
 package com.suri.leetcode.medium;
 
+import com.suri.common.TreeNode;
+
 /*
 Given a binary tree. Find the size of its largest subtree that is a Binary Search Tree.
 Note: Here Size is equal to the number of nodes in the subtree.

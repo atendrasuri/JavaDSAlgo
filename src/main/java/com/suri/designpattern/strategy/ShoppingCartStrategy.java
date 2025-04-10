@@ -1,16 +1,9 @@
 package com.suri.designpattern.strategy;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 24/09/19
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * <p>
- * <p>
+
  * Define a family of algorithms, encapsulate each one, and make them interchangeable.
- * Strategy lets the algorithm vary independently from the clients that use it.
+ * Strategy lets the algorithm vary independently of the clients that use it.
  * Capture the abstraction in an interface, bury implementation details in derived classes.
  */
 public class ShoppingCartStrategy {

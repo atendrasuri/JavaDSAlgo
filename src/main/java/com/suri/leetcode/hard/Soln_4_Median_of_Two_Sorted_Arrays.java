@@ -34,15 +34,59 @@ https://www.youtube.com/watch?v=jDJuW7tSxio&ab_channel=Pepcoding
 public class Soln_4_Median_of_Two_Sorted_Arrays {
     public static void main(String[] args) {
 
-        int arr1[] = {1,2};
-        int arr2[] = {3,4};
+        int arr1[] = {1};
+        int arr2[] = {1};
 
         System.out.println(findMedianSortedArrays(arr1, arr2));
 
     }
-    public  static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
         if(nums1.length>nums2.length){
             return findMedianSortedArrays(nums2, nums1);
+        }
+
+        int x = nums1.length;
+        int y = nums2.length;
+
+        int low = 0;
+        int high = x;
+        int total = x+y;
+
+
+        while(low<=high){
+
+            int partitionNums1 = low+(high-low)/2;
+            int partitionNums2 = (total+1)/2- partitionNums1;
+
+
+            int maxLeftNums1 = (partitionNums1==0)?Integer.MIN_VALUE:nums1[partitionNums1-1];
+            int minRightNums1= (partitionNums1==x)?Integer.MAX_VALUE:nums1[partitionNums1];
+
+
+            int maxLeftNums2= (partitionNums2==0)?Integer.MIN_VALUE:nums2[partitionNums2-1];
+            int minRightNums2= (partitionNums2==y)?Integer.MAX_VALUE:nums2[partitionNums2];
+
+            if(maxLeftNums1<=minRightNums2 && maxLeftNums2<=minRightNums1){
+
+                if((x+y)%2==0){
+                    return (double)(Math.max(maxLeftNums1, maxLeftNums2)+Math.min(minRightNums1, minRightNums2))/2.0;
+                }else{
+                    return Math.max(maxLeftNums1, maxLeftNums2);
+                }
+            }else if(maxLeftNums1>minRightNums2){
+                high = partitionNums1-1;
+            }else{
+                low = partitionNums1+1;
+            }
+        }
+        return 0;
+
+    }
+
+    public  static double findMedianSortedArrays1(int[] nums1, int[] nums2) {
+        if(nums1.length>nums2.length){
+            return findMedianSortedArrays1(nums2, nums1);
         }
 
 

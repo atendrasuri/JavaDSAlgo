@@ -1,6 +1,6 @@
 package com.suri.companyWise.google;
 
-import com.suri.Pair;
+import com.suri.common.Pair;
 
 /*
 Given a sorted array with possibly duplicate elements. The task is to find indexes of first and last occurrences of an element X in the given array.

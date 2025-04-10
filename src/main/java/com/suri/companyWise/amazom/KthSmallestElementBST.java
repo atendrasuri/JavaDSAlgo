@@ -1,5 +1,7 @@
 package com.suri.companyWise.amazom;
 
+import com.suri.common.TreeNode;
+
 /**
  Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
 

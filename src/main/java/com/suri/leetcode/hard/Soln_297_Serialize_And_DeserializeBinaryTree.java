@@ -1,6 +1,6 @@
 package com.suri.leetcode.hard;
 
-import com.suri.leetcode.medium.TreeNode;
+import com.suri.common.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -51,22 +51,24 @@ public class Soln_297_Serialize_And_DeserializeBinaryTree {
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
 
-        if(root==null){
-            return null;
-        }
         StringBuilder sb = new StringBuilder();
+
         Queue<TreeNode> queue = new LinkedList<>();
+
         queue.add(root);
+
         while(!queue.isEmpty()){
-            TreeNode temp = queue.remove();
+
+            TreeNode temp = queue.poll();
             if(temp==null){
-                sb.append("n ");
-                continue;
+                sb.append("N,");
+            }else{
+                sb.append(temp.val).append(",");
+                queue.add(temp.left);
+                queue.add(temp.right);
             }
-            sb.append(temp.val+" ");
-            queue.add(temp.left);
-            queue.add(temp.right);
         }
+
         return sb.toString();
 
     }
@@ -74,35 +76,34 @@ public class Soln_297_Serialize_And_DeserializeBinaryTree {
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
 
-        if(data==null){
+        String val[] = data.split(",");
+
+        if(val[0].equals("N")){
             return null;
         }
 
-        String value [] = data.split(" ");
+        TreeNode root = new TreeNode(Integer.parseInt(val[0]));
         Queue<TreeNode> queue = new LinkedList<>();
-
-        TreeNode root = new TreeNode(Integer.parseInt(value[0]));
         queue.add(root);
-        for(int i=1;i<value.length;i++){
+        int index =1;
 
-            TreeNode parent =  queue.poll();
+        while(!queue.isEmpty()){
 
-            if(!value[i].equals("n")){
-                TreeNode left = new TreeNode(Integer.parseInt(value[i]));
-                parent.left= left;
-                queue.add(left);
+            TreeNode temp = queue.poll();
+
+            if(!val[index].equals("N")){
+                temp.left = new TreeNode(Integer.parseInt(val[index]));
+                queue.add(temp.left);
             }
-            i++;
-            if(!value[i].equals("n")){
-                TreeNode right = new TreeNode(Integer.parseInt(value[i]));
-                parent.right= right;
-                queue.add(right);
-            }
+            index++;
 
+            if(!val[index].equals("N")){
+                temp.right = new TreeNode(Integer.parseInt(val[index]));
+                queue.add(temp.right);
+            }
+            index++;
         }
         return root;
-
-
 
     }
 }

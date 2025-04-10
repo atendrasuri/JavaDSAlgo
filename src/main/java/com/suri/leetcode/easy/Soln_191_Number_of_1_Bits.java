@@ -31,8 +31,22 @@ https://www.youtube.com/watch?v=I475waWiTK4&ab_channel=Pepcoding
  */
 public class Soln_191_Number_of_1_Bits {
     public static void main(String[] args) {
+        System.out.println(hammingWeight1(11));
 
         System.out.println(hammingWeight(11));
+
+    }
+
+    public static int hammingWeight1(int n) {
+
+        int result =0;
+
+        while(n!=0){
+
+            result+= (n&1)==1?1:0;
+            n=n>>1;
+        }
+        return result;
 
     }
     public static int hammingWeight(int n) {

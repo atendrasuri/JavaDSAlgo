@@ -3,70 +3,66 @@ package com.suri.leetcode.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Given a string s, partition s such that every substring of the partition is a palindrome.
- * <p>
- * Return all possible palindrome partitioning of s.
- * <p>
- * Example:
- * <p>
- * Input: "aab"
- * Output:
- * [
- * ["aa","b"],
- * ["a","a","b"]
- * ]
+/*
+Given a string s, partition s such that every
+substring
+ of the partition is a
+palindrome
+. Return all possible palindrome partitioning of s.
+
+
+
+Example 1:
+
+Input: s = "aab"
+Output: [["a","a","b"],["aa","b"]]
+Example 2:
+
+Input: s = "a"
+Output: [["a"]]
+https://leetcode.com/problems/palindrome-partitioning/description/
  */
 public class Soln_131_Palindrome_Partitioning {
   public static void main(String[] args) {
-    Solution sol = new Solution();
 
-    System.out.println(sol.partition("aab"));
+
+    System.out.println(partition("aab"));
 
   }
-}
-
-class Solution {
-
-
-  List<List<String>> result = new ArrayList<>();
-
-  public List<List<String>> partition(String s) {
-    dfs(s, new ArrayList<>());
-    return result;
+  public static List<List<String>> partition(String s) {
+    List<List<String>> results = new ArrayList<>();
+    compute(s, results, new ArrayList<>(), 0);
+    return results;
   }
 
-  public void dfs(String s, List<String> current) {
+  public static void compute(String s, List<List<String>>  results, List<String> result, int start){
 
-    if (s.length() == 0) {
-      result.add(current);
+    if(start==s.length()){
+      results.add(new ArrayList<>(result));
       return;
     }
 
-    for (int i = 1; i <= s.length(); i++) {
-      String subString = s.substring(0, i);
-      if (isPalindrome(subString)) {
-        List<String> newList = new ArrayList<>(current);
-        newList.add(subString);
-        dfs(s.substring(i, s.length()), newList);
-      } else {
-        continue;
+    for(int end = start; end<s.length(); end++){
+      if(isPalindrome(s.substring(start, end+1))){
+        result.add(s.substring(start, end+1));
+        compute(s, results, result, end+1);
+        result.remove(result.size()-1);
       }
+
     }
   }
 
-  public boolean isPalindrome(String s) {
-    if (s.length() == 0) {
-      return true;
-    }
-    int l = 0;
-    int r = s.length() - 1;
-    while (l < r) {
-      if (s.charAt(l) != s.charAt(r)) {
+  public static boolean isPalindrome(String s){
+
+    int left = 0;
+    int right= s.length()-1;
+
+    while(left<right){
+      if(s.charAt(left)!= s.charAt(right)){
         return false;
       }
-      r--;
-      l++;
+      left++;
+      right--;
     }
     return true;
   }

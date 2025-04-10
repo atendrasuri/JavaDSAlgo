@@ -1,6 +1,6 @@
 package com.suri.leetcode.hard;
 
-import com.suri.ListNode;
+import com.suri.common.ListNode;
 
 import java.util.PriorityQueue;
 

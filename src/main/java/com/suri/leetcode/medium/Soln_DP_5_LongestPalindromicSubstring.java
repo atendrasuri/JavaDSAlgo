@@ -16,12 +16,39 @@ Output: "bb"
 
 https://leetcode.com/problems/longest-palindromic-substring/
 
+[COMPANY TAGS] = Google, TikTok, Microsoft, Walmart Labs, Amazon, Splunk, Bloomberg, Oracle
+Apple, Goldman Sachs, Adobe, Uber, Meta, Atlassian, Commvault, Accenture, IBM, Zoho
+
  */
 public class Soln_DP_5_LongestPalindromicSubstring {
     public static void main(String[] args) {
-
-
         System.out.println(longestPalin("babad").equals("bab"));
+        System.out.println(longestPalindromeExpand("babad").equals("bab"));
+    }
+
+
+    public static String longestPalindromeExpand(String s) {
+
+        String maxResult = "";
+        for(int i=0;i<s.length();i++){
+            String result = checkPalin(s,i, i);
+            maxResult =  result.length()>maxResult.length()?result:maxResult;
+            result = checkPalin(s,i, i+1);
+            maxResult =  result.length()>maxResult.length()?result:maxResult;
+        }
+        return maxResult;
+
+    }
+
+    public static String checkPalin(String s, int left, int right){
+
+        while(left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
+            left= left-1;
+            right = right+1;
+
+        }
+
+        return s.substring(left+1, right);
     }
 
     public static String longestPalin(String S){
@@ -31,8 +58,6 @@ public class Soln_DP_5_LongestPalindromicSubstring {
         int left=0;
         int right=0;
         for(int g =0;g<S.length();g++){
-
-
             for(int i=0, j=g; i<dp.length && j <dp[0].length; i++, j++){
 
                 if(g==0){

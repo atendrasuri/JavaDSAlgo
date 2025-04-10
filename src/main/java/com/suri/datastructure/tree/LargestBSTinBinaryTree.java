@@ -1,6 +1,6 @@
 package com.suri.datastructure.tree;
 
-import com.suri.companyWise.amazom.TreeNode;
+import com.suri.common.TreeNode;
 
 /**
  * Given a binary tree, find size of largest binary search subtree in this

@@ -1,6 +1,6 @@
 package com.suri.leetcode.hard;
 
-import com.suri.leetcode.medium.TreeNode;
+import com.suri.common.TreeNode;
 
 /*
 

@@ -44,6 +44,31 @@ public class Soln_74_Search_In_2DSortedMatrix {
         System.out.println(searchMatrix(mat, 62));
     }
 
+    public boolean searchMatrix1(int[][] matrix, int target) {
+
+        int r=0;
+        int c = matrix[0].length-1;
+
+        int n = matrix.length;
+
+        if(target<matrix[0][0] && target>matrix[n-1][c]){
+            return false;
+        }
+
+        while(r<=n-1&&c>=0){
+
+            if(target>matrix[r][c]){
+                r++;
+            }else if(target<matrix[r][c]){
+                c--;
+            }else{
+                return true;
+            }
+        }
+        return false;
+
+    }
+
     public static boolean searchMatrix(int[][] matrix, int target) {
         int n = matrix.length;
         int i = 0;

@@ -1,19 +1,22 @@
 package com.suri.java.concurrency.executorservice.customthreadpool;
 
+import java.util.concurrent.Executors;
+
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 05/11/19
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * @History:
+ https://vipulpachauri12.medium.com/design-custom-thread-pool-java-617263ee57ec
+
+ To design a thread pool we need following entities :
+
+ 1. Thread Pool : Enqueue the task in blocking queue
+ 2. Blocking Queue : Stores the tasks
+ 3. Task Executor : Execute the tasks
+
  */
 public class CustomThreadPool {
 
   private BlockingQueueCustom<Runnable> blockingQueueCustom;
 
-  private boolean poolShutDownInitited;
+  private boolean poolShutDownInitiated;
 
   CustomThreadPool(int nThread) {
     blockingQueueCustom = new LinkedBlockingQueueCustom<>(nThread);
@@ -30,7 +33,7 @@ public class CustomThreadPool {
 
   public synchronized void execute(Runnable task) throws Exception {
 
-    if (this.poolShutDownInitited) {
+    if (this.poolShutDownInitiated) {
       throw new Exception("ThredPool shutdown initited, no further task can be added");
     }
 
@@ -38,12 +41,12 @@ public class CustomThreadPool {
     this.blockingQueueCustom.put(task);
   }
 
-  public boolean isPoolShutDownInitited() {
-    return poolShutDownInitited;
+  public boolean isPoolShutDownInitiated() {
+    return poolShutDownInitiated;
   }
 
   public synchronized void shutdown() {
-    this.poolShutDownInitited = true;
+    this.poolShutDownInitiated = true;
     System.out.println("Threadpool SHUTDOWN initiated");
   }
 }

@@ -1,6 +1,6 @@
 package com.suri.leetcode.easy;
 
-import com.suri.ListNode;
+import com.suri.common.ListNode;
 
 /*
 

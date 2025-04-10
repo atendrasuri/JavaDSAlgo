@@ -31,6 +31,31 @@ public class Soln_DP_647_Count_Palindromic_Substrings {
 
     }
 
+    public int countSubstrings(String s) {
+
+
+        int count =0;
+
+        for(int i=0;i<s.length(); i++){
+
+            count+= palin(s, i, i);
+            count+= palin(s, i, i+1);
+        }
+        return count;
+
+    }
+
+    public int palin(String s, int left, int right){
+
+        int count =0;
+        while(left>=0 && left<s.length() && right>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
+            left--;
+            right++;
+            count++;
+        }
+        return count;
+    }
+
     public static int countPalindromicSubstrings(String s) {
         boolean dp[][] = new boolean[s.length()][s.length()];
         int count =0;

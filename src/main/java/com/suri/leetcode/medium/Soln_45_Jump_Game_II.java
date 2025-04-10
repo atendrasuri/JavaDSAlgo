@@ -28,11 +28,32 @@ https://www.youtube.com/watch?v=phgjL7SbsWs&t=1081s&ab_channel=Pepcoding
 public class Soln_45_Jump_Game_II {
     public static void main(String[] args) {
         int arr[] = {2,3,1,1,4};
-        System.out.println(jump(arr));
+        //System.out.println(jump(arr));
+        System.out.println(jumpGreedy(arr));
 
         int arr2[] ={1, 2, 0, 3,0 ,0};
-        System.out.println(jump(arr2));
+       // System.out.println(jump(arr2));
 
+    }
+
+    public static int jumpGreedy(int[] nums) {
+
+        int jump =0;
+        int maxJumpCanTake =0;
+        int currentEnd = 0;
+        for(int i=0;i<nums.length-1;i++){
+            maxJumpCanTake = Math.max(maxJumpCanTake, nums[i]+i);
+            // If we have reached the end of the current jump
+            if(i==currentEnd){
+                jump++;
+                currentEnd = maxJumpCanTake;
+//                // If we can reach or go beyond the last index, we stop
+//                if(currentEnd>=nums.length-1){
+//                    break;
+//                }
+            }
+        }
+        return jump;
     }
 
     public static int jump(int[] nums) {

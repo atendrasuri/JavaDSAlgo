@@ -1,5 +1,7 @@
 package com.suri.leetcode.medium;
 
+import java.util.Arrays;
+
 /*
 Given an array, rotate the array to the right by k steps, where k is non-negative.
 
@@ -34,8 +36,14 @@ public class Soln_189_Rotate_Array {
     public static void rotate(int[] nums, int k) {
         k = k % nums.length;
         reverse(nums, 0, nums.length - 1);
+        Arrays.stream(nums).boxed().forEach(System.out::print);
+        System.out.println();
         reverse(nums, 0, k - 1);
+        Arrays.stream(nums).boxed().forEach(System.out::print);
+        System.out.println();
         reverse(nums, k, nums.length - 1);
+        Arrays.stream(nums).boxed().forEach(System.out::print);
+        System.out.println();
     }
 
     public static void reverse(int arr[], int start, int end) {

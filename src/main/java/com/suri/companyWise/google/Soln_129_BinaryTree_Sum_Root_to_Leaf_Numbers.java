@@ -1,6 +1,6 @@
 package com.suri.companyWise.google;
 
-import com.suri.leetcode.medium.TreeNode;
+import com.suri.common.TreeNode;
 
 /*
 

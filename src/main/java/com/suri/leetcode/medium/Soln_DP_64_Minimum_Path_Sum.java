@@ -23,22 +23,8 @@ https://www.geeksforgeeks.org/min-cost-path-dp-6/
  */
 public class Soln_DP_64_Minimum_Path_Sum {
     public static void main(String[] args) {
-
-
-        Set<String> stringSet = new HashSet<>();
-        Set<String> result = new HashSet<>();
-        stringSet.add("CREATE_POD");
-        stringSet.add("DELETE_POD");
-        for(String key: stringSet){
-            result.add(key);
-            result.add(key+"_ODI");
-        }
-
-        System.out.println(result);
-
-
         int mat[][] = {{1,3,1},{1,5,1},{4,2,1}};
-        //System.out.println(minPathSum(mat));
+        System.out.println(minPathSum(mat));
 
     }
     public static int minPathSum(int[][] mat) {

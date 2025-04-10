@@ -26,7 +26,7 @@ After all I would suggest to use Enum as the safest way for Singleton (Since jav
  */
 class Singleton implements Serializable, Cloneable {
 
-    private static Singleton singletonIntance;
+    private static Singleton singletonInstance;
 
     private Singleton(){
 
@@ -34,16 +34,16 @@ class Singleton implements Serializable, Cloneable {
 
     public static Singleton  getInstance(){
 
-        if(singletonIntance==null)
+        if(singletonInstance ==null)
         {
             synchronized (Singleton.class){
-                if(singletonIntance==null){
-                    singletonIntance = new  Singleton();
+                if(singletonInstance ==null){
+                    singletonInstance = new  Singleton();
                 }
             }
         }
 
-        return singletonIntance;
+        return singletonInstance;
 
     }
 

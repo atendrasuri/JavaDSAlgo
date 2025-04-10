@@ -4,28 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 05/11/19
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * @History: Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
- * <p>
- * <p>
- * In Pascal's triangle, each number is the sum of the two numbers directly above it.
- * <p>
- * Example:
- * <p>
- * Input: 5
- * Output:
- * [
- * [1],
- * [1,1],
- * [1,2,1],
- * [1,3,3,1],
- * [1,4,6,4,1]
- * ]
+ Given an integer numRows, return the first numRows of Pascal's triangle.
+
+ In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
+ Example 1:
+
+ Input: numRows = 5
+ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+ Example 2:
+
+ Input: numRows = 1
+ Output: [[1]]
+
+ * https://leetcode.com/problems/pascals-triangle/description
  */
 public class Soln_118_Pascal_Triangle {
   public static void main(String[] args) {

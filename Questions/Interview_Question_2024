@@ -1,0 +1,141 @@
+Line Sweep Algorithms
+Line Sweep (or Sweep Line) is an algorithmic technique where we sweep an imaginary line (x or y axis) and solve various problem.
+There would be an event (entry or event) and based on that we update the information and then return result.
+https://leetcode.com/problem-list/mzw3cyy6/
+
+MUST READ - https://blog.algomaster.io/t/system-design
+
+https://www.freewordcloudgenerator.com/generatewordcloud
+
+
+
+
+https://www.educative.io/courses/java-multithreading-for-senior-engineering-interviews/basic-thread-handling#Joining-Threads
+
+Scalar system design - https://www.youtube.com/watch?v=8telu1SoCKM&ab_channel=SCALER
+https://www.designgurus.io/blind75
+==============================================================================================================================================
+[Walmart] - Nov 29, 2024
+Round 1
+1. https://leetcode.com/problems/next-greater-element-ii/description/
+2. https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+3. https://leetcode.com/problems/merge-k-sorted-lists/description/
+4. https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+Round 2
+How to detect Circular dependency of beans in spring boot
+What Happen when Application annotated with @SpringBoot Application
+Can we use @Component in @Repository or vice versa
+Java8 streaming question
+
+==============================================================================================================================================
+[TCS] - Dec 9, 2024
+TODO - add the details here
+
+==============================================================================================================================================
+[Uniphore] - Dec 6, 2024
+Round 1
+1. What is the difference between GRPC and RestAPI call
+2. What is the advantages/disadvantages of using spring data repository
+3. Write a program using threads where first thread print from 11 and second thread print from 21
+ Example [11,21,12,22 ...]
+ 4. Write a program using DSA and Java8 that return the first non-repeating character
+ Example - Input - Hello How are you   Output - w
+ Soln - Character res = str.chars().mapToObj(c -> (char) c).filter(c -> str.indexOf(c) == str.lastIndexOf(c)).findFirst().get();
+
+==============================================================================================================================================
+[ESPR] - Dec 13, 2022
+1. https://leetcode.com/problems/permutations/description/
+2. https://leetcode.com/problems/unique-paths-ii/description/
+
+==============================================================================================================================================
+[Wissen Technology]
+Round 1
+1. You are given a nested Array of integers nestedArray.
+   Each element is either an integer or an Array whose elements may also be integers or other Arrays.
+   Implement to flatten it.
+   Input: {1, 2, new Object[]{3, 4, new Object[]{5, 6}}, 7, 8};
+   Output : [1, 2, 3, 4, 5, 6, 7, 8]
+
+   Input: { 1, 2, new Object[]{ 3, 4, new Object[]{ 5 }, 6, 7 }, 8, 9, 10 }
+   Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2. Merge Two sorted Arrays
+https://leetcode.com/problems/merge-sorted-array/
+3. Output of below program
+He wants to understand the constructor hierarchies
+
+==============================================================================================================================================
+
+Round 1
+Find all possible ways to Split the given string into Primes
+https://www.geeksforgeeks.org/find-all-possible-ways-to-split-the-given-string-into-primes/
+
+==============================================================================================================================================
+[GS]
+Coderpad
+1. Given an integer array of size n. Elements of the array is >= 0. Starting from arr[startInd], follow each element to the index it points to. Find a cycle and return its length. No cycle is found -> -1.
+   int lengthOfCycle(int[] arr, int startIndex) {
+   	// todo
+   }
+   Examples:
+   lengthOfCycle([1, 0], 0); // 2
+   lengthOfCycle([1, 2, 0], 0); // 3
+   lengthOfCycle([1, 2, 3, 1], 0); // 3
+2.
+3. https://leetcode.com/problems/trapping-rain-water/description/
+
+==============================================================================================================================================
+[J.P Morgan]
+
+[Round1]
+Given an array of characters chars, compress it using the following algorithm:
+
+ Begin with an empty string s. For each group of consecutive repeating characters in chars:
+
+ If the group's length is 1, append the character to s.
+ Otherwise, append the character followed by the group's length.
+
+ Input: "abbcccde"
+ Output: "ab2c3de
+https://leetcode.com/problems/string-compression/description/
+
+[Round2]
+1. Given a number of objects containing PageViewID and customer name, find the top 5 ranked customer based on the number of unique page viewed.
+follow up - is it fine to choose map for large datasets
+2. Design Any system
+
+
+
+==============================================================================================================================================
+[Oracle OAHI]
+1. How do you process very large csv file in parallel computing -> system design
+
+2. What is the difference between Observer and pub/sub design pattern
+
+3. How do query efficiently from nested and complex JSON
+
+4. Chain of responsibility Design patterns
+
+
+==============================================================================================================================================
+[FRESHWORK]
+1. https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/
+
+==============================================================================================================================================
+[LinkedIn]
+
+[Round 1]
+https://leetcode.com/problems/max-stack/solutions/2577027/max-stack/
+
+==============================================================================================================================================
+
+
+System Design interview questions
+
+1. Given a large list of numbers in a file and a very small amount of memory, sort the file.
+
+
+
+
+TODO
+410. Split Array Largest Sum
+

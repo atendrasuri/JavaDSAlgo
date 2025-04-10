@@ -16,7 +16,7 @@ Example 2:
 
 Input: nums = [0]
 Output: [0]
-
+https://leetcode.com/problems/move-zeroes
  */
 public class soln_283_Move_Zeroes {
     public static void main(String[] args) {
@@ -24,6 +24,23 @@ public class soln_283_Move_Zeroes {
         int arr[] = {0,1,0,3,12};
         moveZeroes(arr);
         IntStream.of(arr).forEach(a-> System.out.print(a+" "));
+    }
+
+    public static void moveZeroes1(int[] nums) {
+
+        int j=0;
+
+        for(int i=0;i<nums.length;i++){
+
+            if(nums[i]!=0){
+                int temp = nums[i];
+                nums[i]= nums[j];
+                nums[j]= temp;
+                j++;
+            }
+        }
+
+
     }
     public static void moveZeroes(int[] nums) {
         int count =0;

@@ -1,5 +1,7 @@
 package com.suri.leetcode.medium;
 
+import com.suri.common.TreeNode;
+
 public class PrintLeafNode {
 
 

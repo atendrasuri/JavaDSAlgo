@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=ho4gTCr0QSk&t=586s
 public class Soln_31_Next_Permutation {
     public static void main(String[] args) {
         int arr[] = {1,3,2};
-        nextPermutation(arr);
+        nextPermutation1(arr);
 
     }
 
@@ -52,6 +52,42 @@ public class Soln_31_Next_Permutation {
         }
         Arrays.sort(arr, inftp, arr.length);
         System.out.println(arr);
+
+    }
+
+    public static void nextPermutation1(int[] nums) {
+
+
+        int n = nums.length;
+
+        int inflct =-1;
+
+        for(int i= n-2; i>=0;i--){
+            if(nums[i]<nums[i+1]){
+                inflct =i;
+                break;
+
+            }
+        }
+        System.out.println(inflct);
+
+        if(inflct ==-1){
+            Arrays.sort(nums);
+        }else{
+
+            int index2 =0;
+            for(int j=n-1; j>=0; j--){
+
+                if(nums[j]>nums[inflct]){
+                    index2 =j;
+                    break;
+                }
+            }
+            int temp = nums[inflct];
+            nums[inflct] = nums[index2];
+            nums[index2]= temp;
+        }
+        Arrays.sort(nums, inflct+1, nums.length);
 
     }
 }

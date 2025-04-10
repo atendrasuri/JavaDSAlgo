@@ -1,7 +1,7 @@
 package com.suri.leetcode.easy;
 
 
-import com.suri.Pair;
+import com.suri.common.Pair;
 
 import java.util.Arrays;
 import java.util.HashMap;

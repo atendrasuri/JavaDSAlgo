@@ -1,13 +1,13 @@
 package com.suri.designpattern.chainOfResponsibility;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 30/09/19
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * @History:
+
+ Definition- Chain-of-Responsibility allows multiple objects(handler) to process a request sequentially.
+ Each handler in the chain either process the request ot passes it to the next handler.
+
+ "Use Chain-of-Responsibility design pattern when you want to give more than object a chance to handle a request"
+
+ Each Object in the chain act as a handler and has a successor object . If it can handle the request, it does; otherwise it forward the request to it's successor.
  */
 public class TestChainOfRes {
   public static void main(String[] args) {

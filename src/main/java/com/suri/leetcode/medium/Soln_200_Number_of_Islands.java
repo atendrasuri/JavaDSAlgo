@@ -26,6 +26,9 @@ Input: grid = [
 Output: 3
 
 https://leetcode.com/problems/number-of-islands/
+
+[COMPANY TAGS] = Amazon, Google, Meta, Bloomberg, Uber, Microsoft, TikTok, Apple, Anduril, Oracle, Yandex, Samsung, Adobe, LinkedIn, Nvidia, PayPal
+
  */
 public class Soln_200_Number_of_Islands {
     public static void main(String[] args) {

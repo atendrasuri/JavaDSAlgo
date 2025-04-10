@@ -1,13 +1,7 @@
 package com.suri.designpattern.factory;
 
 /**
- * @Author: atekumar
- * @Current-Version: 1.0.0
- * @Creation-Date: 07/12/18
- * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
- * @History:
+
  */
 
 interface Vechicle {

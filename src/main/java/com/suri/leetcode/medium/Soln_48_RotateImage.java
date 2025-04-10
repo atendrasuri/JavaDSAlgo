@@ -29,6 +29,7 @@ public class Soln_48_RotateImage {
             for(int j=0;j<matrix.length;j++){
                 System.out.print(matrix[i][j]+" ");
             }
+            System.out.println();
         }
     }
     public static void rotate(int[][] matrix) {
@@ -52,5 +53,30 @@ public class Soln_48_RotateImage {
                 ri--;
             }
         }
+    }
+
+    public void rotate1(int[][] matrix) {
+
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        int[][] result = new int[m][n];
+
+
+        for(int i=0;i<m;i++){
+
+            for(int j= n-1;j>=0;j--){
+
+                result[j][n-i-1]= matrix[i][j];
+            }
+        }
+
+        for(int i=0;i<m;i++){
+
+            for(int j=0;j<n;j++){
+                matrix[i][j]= result[i][j];
+            }
+        }
+
     }
 }

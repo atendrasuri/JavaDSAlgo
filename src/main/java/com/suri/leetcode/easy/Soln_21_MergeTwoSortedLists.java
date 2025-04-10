@@ -1,6 +1,6 @@
 package com.suri.leetcode.easy;
 
-import com.suri.ListNode;
+import com.suri.common.ListNode;
 
 import java.util.PriorityQueue;
 
@@ -23,6 +23,7 @@ Example 3:
 
 Input: list1 = [], list2 = [0]
 Output: [0]
+https://leetcode.com/problems/merge-two-sorted-lists
  */
 public class Soln_21_MergeTwoSortedLists {
 

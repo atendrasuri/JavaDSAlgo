@@ -1,5 +1,7 @@
 package com.suri.companyWise.amazom;
 
+import com.suri.common.TreeNode;
+
 /**
  * @History: Given preorder and inorder traversal of a tree, construct the binary tree.
  * <p>

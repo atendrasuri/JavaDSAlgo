@@ -1,5 +1,7 @@
 package com.suri.leetcode.medium;
 
+import com.suri.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
